@@ -1,0 +1,4 @@
+Tool Requierd for Web Application Testing
+1.Burp
+2.Sqlmap
+3.dirbuster

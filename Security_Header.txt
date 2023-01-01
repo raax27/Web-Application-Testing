@@ -1,0 +1,36 @@
+✅ Active
+Strict-Transport-Security
+X-Frame-Options
+X-Content-Type-Options
+Content-Security-Policy
+X-Permitted-Cross-Domain-Policies
+Referrer-Policy
+Clear-Site-Data
+Cross-Origin-Embedder-Policy
+Cross-Origin-Opener-Policy
+Cross-Origin-Resource-Policy
+Cache-Control
+******************************************************
+❌ Deprecated
+
+Feature-Policy
+Expect-CT
+Public-Key-Pins
+X-XSS-Protection
+
+*******************************************************
+It is recommended to configure below response headers which are improperly configured and missing. 
+
+Cache-Control: private,no-cache, no-store, must-revalidate, pre-check=0, post-check=0, max-age=0, s-maxage=0
+Pragma: no-cache
+X-Frame-Options: DENY
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: strict-origin
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Content-Security-Policy: default-src 'self'
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Access-Control-Allow-Origin: domain
+Access-Control-Allow-Headers: Content-Type
+Access-Control-Allow-Methods: GET,POST
+Access-Control-Allow-Credentials: false
