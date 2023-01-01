@@ -1,4 +1,4 @@
 # Web-Application-Testing
-All the Tools Required For Web-Application-Testing
+The Complete Toolkit for Web Application Testing
 
-All the Documents in the Repository are practically performed with proper POC to help solving Web-Application Penetration testing 
+For the purpose of assisting with Web-Application Penetration Testing, every document in the repository is actually carried out with the appropriate POC.
